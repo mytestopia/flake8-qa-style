@@ -1,5 +1,7 @@
 # flake8-qa-style
 
+Flake8 based linter with some qa best-practice for writing tests
+
 ## Installation
 
 ```bash
