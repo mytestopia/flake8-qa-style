@@ -50,5 +50,5 @@ class WithItemsOnSameLine(Error):
 
 
 class AsyncFunctionWithoutAsynchronous(Error):
-    code = 'CS009'
+    code = 'CS010'
     message = 'async function "{func_name}" has no asynchronous calls or features'
