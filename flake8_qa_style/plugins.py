@@ -8,6 +8,7 @@ from flake8_plugin_utils import Plugin, Visitor
 from flake8_qa_style.checkers.node_visitors import (
     AnnotationVisitor,
     AssertVisitor,
+    AsyncVisitor,
     FunctionCallVisitor,
     WithVisitor,
 )
@@ -29,6 +30,7 @@ class QAStylePlugin(Plugin):
         AnnotationVisitor,
         FunctionCallVisitor,
         AssertVisitor,
+        AsyncVisitor,
         WithVisitor,
     ]
 

@@ -47,3 +47,8 @@ class NestedWith(Error):
 class WithItemsOnSameLine(Error):
     code = 'CS009'
     message = 'each context manager in a "with" statement must be on its own line'
+
+
+class AsyncFunctionWithoutAsynchronous(Error):
+    code = 'CS009'
+    message = 'async function "{func_name}" has no asynchronous calls or features'
