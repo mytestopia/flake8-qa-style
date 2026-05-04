@@ -42,3 +42,8 @@ class NoBlankFileStart(Error):
 class NestedWith(Error):
     code = 'CS008'
     message = 'nested "with" statements of the same type should be comma-separated'
+
+
+class WithItemsOnSameLine(Error):
+    code = 'CS009'
+    message = 'each context manager in a "with" statement must be on its own line'

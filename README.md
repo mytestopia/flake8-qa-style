@@ -18,6 +18,7 @@ pip inslall flake8-qa-style
 6. **CS006**: missing function return type annotation
 7. **CS007**: file should not start with a blank line
 8. [CS008: nested "with" statements of the same type should be comma-separated](./rules/CS008.md)
+9. [CS009: each context manager in a "with" statement must be on its own line](./rules/CS009.md)
 
 **Rules configuration**
 ```editorconfig

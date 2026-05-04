@@ -68,13 +68,6 @@ def test_combined_with_parenthesized():
     assert_not_error(WithVisitor, code)
 
 
-def test_combined_with_comma():
-    code = """\
-    with open('a'), open('b'):
-        pass
-    """
-    assert_not_error(WithVisitor, code)
-
 def test_nested_with_body_has_other_statements():
     code = """\
     with open('a'):
