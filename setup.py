@@ -15,7 +15,7 @@ def find_dev_required():
 
 setup(
     name="flake8-qa-style",
-    version="1.1.0",
+    version="1.2.0",
     description="flake8 based linter for e2e tests",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
