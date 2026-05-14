@@ -24,7 +24,7 @@ def str_to_bool(string):
 
 class QAStylePlugin(Plugin):
     name = 'flake8_qa_style'
-    version = '1.2.0'
+    version = '1.3.0'
 
     visitors = [
         AnnotationVisitor,
